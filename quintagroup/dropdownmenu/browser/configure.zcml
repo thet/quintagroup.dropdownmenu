@@ -47,6 +47,11 @@
       name="drop_down.css"
       file="resources/drop_down.css"
       />
+  <browser:resource
+      name="drop_down.js"
+      file="./resources/drop_down.js"
+      />
+
 
 <!-- Resource directory for images -->
   <browser:resourceDirectory

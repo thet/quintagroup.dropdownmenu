@@ -1,6 +1,10 @@
 Changelog
 =========
 
+1.3 - May 22,2015
+
+* Added js script for mobile dropdown menu[roman.ischiv]
+
 1.2.14 - November 18, 2013
 
 * Deleted unnecessary portal top styles.
