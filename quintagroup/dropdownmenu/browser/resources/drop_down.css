@@ -208,20 +208,16 @@
   background-color: #205c90;
   display: block;
   height: 3px;
-  margin: 0 auto;
+  margin: 3px auto;
   width: 23px;
-  border-top: 2px solid #ddd; 
-  border-bottom: 2px solid #ddd; 
   cursor: pointer;
   }
 #globalnav-wrapper.open .globalnav-toggle .icon-bar,
 #globalnav-wrapper .globalnav-toggle:hover .icon-bar {
   background-color: #fff;
-  border-top: 2px solid #205c90; 
-  border-bottom: 2px solid #205c90; 
   }
 #globalnav-toggle:checked ~ .globalnav {
-  display: block;
+  display: block !important;
   }
 }
 
