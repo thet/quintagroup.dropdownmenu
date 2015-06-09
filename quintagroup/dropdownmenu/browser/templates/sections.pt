@@ -6,7 +6,12 @@
         >Navigation</p
     ><div id="globalnav-wrapper"
          tal:attributes="class python:view.conf.mobile_menu and 'mobileMenuOn' or nothing"
-        ><input id="globalnav-toggle" type="checkbox" /><ul id="portal-globalnav" class="globalnav"
+        ><input id="globalnav-toggle" type="checkbox" /><div class="globalnav-toggle"
+            ><label for="globalnav-toggle" class="icon-bar"></label
+            ><label for="globalnav-toggle" class="icon-bar"></label
+            ><label for="globalnav-toggle" class="icon-bar"></label
+            ></div
+        ><ul id="portal-globalnav" class="globalnav"
             ><li tal:replace="structure menu"
                 >DropDown Menu</li
             ></ul
