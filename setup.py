@@ -3,8 +3,11 @@ import os
 
 version = '1.3.3'
 
-tests_require = ['zope.testing',
-                 'collective.testcaselayer']
+tests_require = [
+    'zope.testing',
+    'collective.testcaselayer',
+    'Products.PloneTestCase',
+]
 
 setup(name='quintagroup.dropdownmenu',
       version=version,
