@@ -52,3 +52,7 @@ def uninstall(context):
     fixQIUninstallDependencies(site)
     removeConfiglet(site)
     cleanupRegistry(site)
+
+
+def upgrade_to_1_3(context):
+    context.runImportStepFromProfile('profile-{0}:default'.format(PROJECT_NAME), 'jsregistry')

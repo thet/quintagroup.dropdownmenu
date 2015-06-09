@@ -41,5 +41,12 @@
     <!-- <depends name="skins"/> -->
   </genericsetup:importStep>
 
+  <genericsetup:upgradeStep
+        title="Upgrade quintagroup.dropdownmenu to 1.3"
+        description="quintagroup.dropdownmenu upgrade step"
+        source="*"
+        destination="1.3"
+        handler="quintagroup.dropdownmenu.setuphandlers.upgrade_to_1_3"
+        profile="quintagroup.dropdownmenu:default" />
 
 </configure>
