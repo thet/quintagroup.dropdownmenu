@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<registry>
+ <records remove="True" interface="quintagroup.dropdownmenu.interfaces.IDropDownMenuSettings"/>
+</registry>
